@@ -1,4 +1,5 @@
-import { create, persist } from '../lib/zustand'
+import { create } from 'zustand'
+import { persist } from 'zustand/middleware'
 import { JobApplication } from '../types'
 
 interface ApplicationStore {

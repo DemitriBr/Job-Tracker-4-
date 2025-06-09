@@ -1,4 +1,4 @@
-import { create } from '../lib/zustand'
+import { create } from 'zustand'
 
 interface UIStore {
   editingApplicationId: string | null
